@@ -22,10 +22,14 @@ const Safe = () => {
       </p>
       <div className="grid grid-cols-1 md:gap-y-0 gap-y-10  px-4 md:grid-cols-2 md:px-48 justify-items-start align-middle ">
         <div className="self-center flex flex-col">
-          <ul className="list-disc flex flex-col space-y-3">
+          <ul className="list-disc flex  text-white flex-col space-y-3">
             {array.map((item)=>{
                 return (
-                    <li key={item} className="text-gray-400 font-semibold  text-lg">{item}</li>
+                    <li key={item}>
+                      <div  className="text-gray-400 font-semibold  text-lg">
+                      {item}
+                      </div>
+                    </li>
                 )
             })}
           </ul>

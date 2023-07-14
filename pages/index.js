@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`pb-10`}
+      className={`pb-4`}
     >
      <Heading/>
      <Fight/>
