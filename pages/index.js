@@ -11,6 +11,7 @@ import Video from '@/components/home/video'
 import Story from '@/components/home/story'
 import Government from '@/components/home/government'
 import Scammed from '@/components/home/scammed'
+import Slide from '@/components/home/slide'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
       className={`pb-4`}
     >
      <Heading/>
+    
      <Fight/>
      <Warning/>
      <Data/>
