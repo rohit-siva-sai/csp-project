@@ -71,7 +71,7 @@ const Member = () => {
           />
         </picture>
         <div className="h-full bg-gray-800 shadow-sm shadow-white bg-opacity-40 px-8 pt-36 pb-12 rounded-lg overflow-hidden text-center relative">
-          <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-2">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 md:mt-4 mb-2">
             Asst. Professor
           </h2>
           <h1 className="title-font sm:text-2xl  text-xl font-medium text-white mb-2">
