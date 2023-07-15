@@ -50,7 +50,7 @@ const Heading = () => {
           timing="ease"
           iteration="5"
           fillMode="none"
-          className="text-rose-600 font-semibold text-2xl  md:text-7xl font-mono "
+          className="text-rose-600 font-semibold text-xl  md:text-7xl font-mono "
         >
           NOT TO USE ONLINE LOAN APPS
         </MovingText>

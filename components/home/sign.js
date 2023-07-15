@@ -51,13 +51,13 @@ const Sign = () => {
             cursor={true}
             style={{
              
-              fontFamily: "cursive",
+              
               fontWeight: "semibold",
               display: "inline-block",
               color: textColor,
               textShadow: "1px 2px 2px white",
             }}
-            className="text-2xl md:text-4xl"
+            className="text-2xl md:text-4xl font-mono md:font-serif"
           />
          </div>
         </div>

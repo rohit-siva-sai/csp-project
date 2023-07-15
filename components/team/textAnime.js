@@ -41,8 +41,8 @@ const TextAnime = () => {
         repeat={Infinity}
         wrapper="span"
         cursor={true}
-        style={{ fontFamily: "cursive",fontWeight: "semibold", display: "inline-block", color: textColor,textShadow: "1px 2px 2px white" }}
-        className='md:text-7xl text-2xl '
+        style={{fontWeight: "semibold", display: "inline-block", color: textColor,textShadow: "1px 2px 2px white"}}
+        className='md:text-7xl text-2xl md:font-serif font-mono '
       />
       </div>
     </div>
