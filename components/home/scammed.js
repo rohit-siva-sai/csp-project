@@ -100,7 +100,7 @@ const Scammed = () => {
         <div className="justify-self-end self-center">
           <picture>
             <img
-              src="/loan13.avif"
+              src="/loan13.jpg"
               alt=""
               className="md:h-[400px] w-[400px]   rounded-3xl"
             />
